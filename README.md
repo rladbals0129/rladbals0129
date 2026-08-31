@@ -1,9 +1,9 @@
 # 김유민
 
 회사에서는 C++로 무인 보관함 키오스크 소프트웨어를 만들고, 퇴근 후에는 게임을 만듭니다.
-구조부터 짜고, 막힐면 뚫고, 없으면 만들고, 귀찮으면 자동화합니다.
+구조부터 짜고, 막히면 뚫고, 없으면 만들고, 귀찮으면 자동화합니다.
 
-- **웹 포트폴리오: [rladbals0129.github.io](https://rladbals0129.github.io/)** — 소개·기술·경력에 프로젝트별 기술 문서 페이지까지
+- **웹 포트폴리오: [kymportfolio.netlify.app](https://kymportfolio.netlify.app/)** — 소개·기술·경력에 프로젝트별 기술 문서 페이지까지
 - Blog: [season97.tistory.com](https://season97.tistory.com/)
 - Email: rladbals0129@naver.com
 
@@ -15,9 +15,9 @@
 
 무인 보관함의 보관, 찾기, 결제, 원격 제어를 담당하는 키오스크 소프트웨어를 개발합니다. C++/MFC 메인 키오스크, 카드 결제 서버 프로그램, 10인치 파생 키오스크, 현장 설치 자동화까지 맡았습니다.
 
-상세 내용은 [경력 기술 문서](https://rladbals0129.github.io/%EA%B2%BD%EB%A0%A5%EA%B8%B0%EC%88%A0/)에 정리해 놨습니다.
+상세 내용은 [경력 기술 문서](https://kymportfolio.netlify.app/경력기술/)에 정리해 놨습니다.
 
-| 영역 | 다룬 것 |
+| 영역 | 다루 것 |
 | --- | --- |
 | 키오스크 본체 | C++/MFC, Win32 API, GDI+ 기반 UI. `CUI_Page` 상속 구조, 더블 버퍼링, 프레임 캐싱, 1080x1920 동적 레이아웃, 저자세 모드 좌표 변환 |
 | 결제 | `CPaymentManager` 하나로 카드·현금·카카오페이 흐름을 통합. 카드는 TCP, 현금 장비는 RS-232 시리얼, 카카오페이는 서버 연동 |
@@ -53,26 +53,26 @@
 
 | 프로젝트 | 기간 | 기술 | 맡은 것 | 링크 |
 | --- | --- | --- | --- | --- |
-| The Others Inside | `2026.02 ~ 2026.03` (개발 종료) | Unreal Engine 5.7+, C++ | 8인 팀 1인칭 공포 루프물. DataTable, GameplayTag, `UAnomalyManager`, `UAnomalyTargetComponent` 기반 이상현상 시스템과 스테이지 흐름을 C++로 구현. PM 역할 겸임 | [기술 문서](https://rladbals0129.github.io/Portfolio_TheOthersInside/) |
-| AI 로봇 키우기 | `2025.12 ~ 2026.03` | Unity 6, C# | 3인 팀 방치형 RPG 모바일 게임. 코어 아키텍처, 전투, 스킬, 스탯·재화·업그레이드, CSV to ScriptableObject 데이터 파이프라인, 에디터 툴 | [기술 문서](https://rladbals0129.github.io/Portfolio_AI%EB%A1%9C%EB%B4%87%ED%82%A4%EC%9A%B0%EA%B8%B0/) · [소스](https://github.com/rladbals0129/AI_Robot_Raising) |
-| 굴러가유 알 (Rolling Egg) | `2025.08 ~ 2025.12` | Unity 6, C# | 2D 러닝 퍼즐 & 육성 시뮬레이션. 코어 아키텍처, 육성 시스템, 데이터 파이프라인, Unity Localization 다국어 지원 | [기술 문서](https://rladbals0129.github.io/Portfolio_RollingEgg/) · [소스](https://github.com/rladbals0129/RollingEgg_Portfolio) |
-| Diary of Lucie | `2023.09` | C++, WinAPI | 4인 팀 로그라이크 탄막 슈팅. 몬스터 AI, 보스 패턴, 이펙트 렌더링 | [PDF](https://rladbals0129.github.io/%EB%A3%A8%EC%8B%9C%EC%9D%98%EC%9D%BC%EA%B8%B0.pdf) |
-| KUNAI | `2023.07 ~ 2023.08` | C++, WinAPI | 액션 플랫포머 개인 포트폴리오 | [PDF](https://rladbals0129.github.io/KUNAI.pdf) |
-| 감염된 도시 탈출 | `2023.10` | Unreal Engine 5, Blueprint | 호러 서바이벌 FPS 개인 포트폴리오. AI Behavior Tree, Geometry Collection, Animation Blueprint, Sequencer | [PDF](https://rladbals0129.github.io/%EC%96%B8%EB%A6%AC%EC%96%BC%ED%8F%AC%ED%8F%B4_%EA%B0%9C%EB%B3%84%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C.pdf) |
+| The Others Inside | `2026.02 ~ 2026.03` (개발 종료) | Unreal Engine 5.7+, C++ | 8인 팀 1인칭 공포 루프물. DataTable, GameplayTag, `UAnomalyManager`, `UAnomalyTargetComponent` 기반 이상현상 시스템과 스테이지 흐름을 C++로 구현. PM 역할 겸임 | [기술 문서](https://kymportfolio.netlify.app/Portfolio_TheOthersInside/) |
+| AI 로봇 키우기 | `2025.12 ~ 2026.03` | Unity 6, C# | 3인 팀 방치형 RPG 모바일 게임. 코어 아키텍처, 전투, 스킬, 스탯·재화·업그레이드, CSV to ScriptableObject 데이터 파이프라인, 에디터 툴 | [기술 문서](https://kymportfolio.netlify.app/Portfolio_AI로봇키우기/) · [소스](https://github.com/rladbals0129/AI_Robot_Raising) |
+| 굴러가유 알 (Rolling Egg) | `2025.08 ~ 2025.12` | Unity 6, C# | 2D 러닝 퍼즐 & 육성 시뮬레이션. 코어 아키텍처, 육성 시스템, 데이터 파이프라인, Unity Localization 다국어 지원 | [기술 문서](https://kymportfolio.netlify.app/Portfolio_RollingEgg/) · [소스](https://github.com/rladbals0129/RollingEgg_Portfolio) |
+| Diary of Lucie | `2023.09` | C++, WinAPI | 4인 팀 로그라이크 탄막 슈팅. 몬스터 AI, 보스 패턴, 이펙트 렌더링 | [PDF](https://kymportfolio.netlify.app/루시의일기.pdf) |
+| KUNAI | `2023.07 ~ 2023.08` | C++, WinAPI | 액션 플랫포머 개인 포트폴리오 | [PDF](https://kymportfolio.netlify.app/KUNAI.pdf) |
+| 감염된 도시 탈출 | `2023.10` | Unreal Engine 5, Blueprint | 호러 서바이벌 FPS 개인 포트폴리오. AI Behavior Tree, Geometry Collection, Animation Blueprint, Sequencer | [PDF](https://kymportfolio.netlify.app/언리얼포폴_개별기술문서.pdf) |
 
 ## AI를 붙여서 하는 일
 
-코딩에만 쓰지는 않습니다. 업무 전반에 붙여서 씁니다.
+코딩에만 쓰지는 않습니다. 업무 전반에 붙여서 쓹니다.
 
-- 조사가 필요한 작업은 먼저 대화로 계획을 세우고 md 파일로 남깁니다. 그 파일을 새 대화에 읽혀서 이어가면 맥락은 유지되고 토큰은 덜 씁니다.
+- 조사가 필요한 작업은 먼저 대화로 계획을 세우고 md 파일로 남깁니다. 그 파일을 새 대화에 읽혀서 이어가면 맥락은 유지되고 토큰은 덜 쓹니다.
 - 반복되는 업무 문서는 Python 템플릿 스크립트로 뽑고, 현장 설치는 Batch·PowerShell 17단계 자동화로 돌립니다.
-- Google Sheets에 있는 기획 데이터를 CSV를 거쳐 ScriptableObject로 변환하는 파이프라인을 만들어 손으로 옮기던 작업을 없앴습니다.
+- Google Sheets에 있는 기획 데이터를 CSV를 거쳐 ScriptableObject로 변환하는 파이프라인을 만들어 손으로 옮기던 작업을 없았습니다.
 - RS-232 통신 누락으로 깨진 DB는 누락 패턴을 분석해 정합성 검증·복구 로직을 넣고 예외처리를 보강했습니다.
-- 도구는 Cursor, Claude, Gemini, MCP 서버, AI Agent 멀티스텝 자동화를 씁니다. 위 포트폴리오 사이트와 기술 문서 페이지도 이 방식으로 만들었습니다.
+- 도구는 Cursor, Claude, Gemini, MCP 서버, AI Agent 멀티스텝 자동화를 쓹니다. 위 포트폴리오 사이트와 기술 문서 페이지도 이 방식으로 만들었습니다.
 
 ## 기술
 
-써본 것만 적었습니다.
+쓰본 것만 적었습니다.
 
 - **C / C++**: MFC, Win32 API, GDI+, Winsock TCP/IP, RS-232 Serial, MQTT, multithreading, synchronization
 - **C# / Unity**: Unity 6, UniTask, Addressables, ScriptableObject 데이터 파이프라인, Unity Localization, 에디터 툴
