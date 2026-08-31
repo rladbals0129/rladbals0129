@@ -1,11 +1,11 @@
 # 김유민
 
 회사에서는 C++로 무인 보관함 키오스크 소프트웨어를 만들고, 퇴근 후에는 게임을 만듭니다.
-구조부터 짜고, 막히면 뚫고, 없으면 만들고, 귀찮으면 자동화합니다.
+구조부터 짜고, 막힐면 뚫고, 없으면 만들고, 귀찮으면 자동화합니다.
 
+- **웹 포트폴리오: [rladbals0129.github.io](https://rladbals0129.github.io/)** — 소개·기술·경력에 프로젝트별 기술 문서 페이지까지
 - Blog: [season97.tistory.com](https://season97.tistory.com/)
 - Email: rladbals0129@naver.com
-- 웹 포트폴리오: `WebPortfolio` 저장소(비공개) — 소개·기술·경력·프로젝트별 기술 문서 페이지로 구성. 필요하시면 공유드립니다.
 
 ## 실무 경력
 
@@ -14,6 +14,8 @@
 `2025.03 ~ 재직 중`
 
 무인 보관함의 보관, 찾기, 결제, 원격 제어를 담당하는 키오스크 소프트웨어를 개발합니다. C++/MFC 메인 키오스크, 카드 결제 서버 프로그램, 10인치 파생 키오스크, 현장 설치 자동화까지 맡았습니다.
+
+상세 내용은 [경력 기술 문서](https://rladbals0129.github.io/%EA%B2%BD%EB%A0%A5%EA%B8%B0%EC%88%A0/)에 정리해 놨습니다.
 
 | 영역 | 다룬 것 |
 | --- | --- |
@@ -47,16 +49,16 @@
 
 ## 게임 프로젝트
 
-퇴근 후에는 Unity와 Unreal로 게임을 만듭니다. 공개 저장소가 있는 것만 링크를 걸었습니다.
+퇴근 후에는 Unity와 Unreal로 게임을 만듭니다. 기술 문서 페이지가 있는 것은 사이트로, 소스가 공개된 것은 저장소로 링크를 걸었습니다.
 
 | 프로젝트 | 기간 | 기술 | 맡은 것 | 링크 |
 | --- | --- | --- | --- | --- |
-| The Others Inside | `2026.02 ~ 2026.03` (개발 종료) | Unreal Engine 5.7+, C++ | 8인 팀 1인칭 공포 루프물. DataTable, GameplayTag, `UAnomalyManager`, `UAnomalyTargetComponent` 기반 이상현상 시스템과 스테이지 흐름을 C++로 구현. PM 역할 겸임 | WebPortfolio 기술 문서(비공개) |
-| AI 로봇 키우기 | `2025.12 ~ 2026.03` | Unity 6, C# | 3인 팀 방치형 RPG 모바일 게임. 코어 아키텍처, 전투, 스킬, 스탯·재화·업그레이드, CSV to ScriptableObject 데이터 파이프라인, 에디터 툴 | [AI_Robot_Raising](https://github.com/rladbals0129/AI_Robot_Raising) |
-| 굴러가유 알 (Rolling Egg) | `2025.08 ~ 2025.12` | Unity 6, C# | 2D 러닝 퍼즐 & 육성 시뮬레이션. 코어 아키텍처, 육성 시스템, 데이터 파이프라인, Unity Localization 다국어 지원 | [RollingEgg_Portfolio](https://github.com/rladbals0129/RollingEgg_Portfolio) |
-| Diary of Lucie | `2023.09` | C++, WinAPI | 4인 팀 로그라이크 탄막 슈팅. 몬스터 AI, 보스 패턴, 이펙트 렌더링 | PDF 문서(비공개) |
-| KUNAI | `2023.07 ~ 2023.08` | C++, WinAPI | 액션 플랫포머 개인 포트폴리오 | PDF 문서(비공개) |
-| 감염된 도시 탈출 | `2023.10` | Unreal Engine 5, Blueprint | 호러 서바이벌 FPS 개인 포트폴리오. AI Behavior Tree, Geometry Collection, Animation Blueprint, Sequencer | PDF 문서(비공개) |
+| The Others Inside | `2026.02 ~ 2026.03` (개발 종료) | Unreal Engine 5.7+, C++ | 8인 팀 1인칭 공포 루프물. DataTable, GameplayTag, `UAnomalyManager`, `UAnomalyTargetComponent` 기반 이상현상 시스템과 스테이지 흐름을 C++로 구현. PM 역할 겸임 | [기술 문서](https://rladbals0129.github.io/Portfolio_TheOthersInside/) |
+| AI 로봇 키우기 | `2025.12 ~ 2026.03` | Unity 6, C# | 3인 팀 방치형 RPG 모바일 게임. 코어 아키텍처, 전투, 스킬, 스탯·재화·업그레이드, CSV to ScriptableObject 데이터 파이프라인, 에디터 툴 | [기술 문서](https://rladbals0129.github.io/Portfolio_AI%EB%A1%9C%EB%B4%87%ED%82%A4%EC%9A%B0%EA%B8%B0/) · [소스](https://github.com/rladbals0129/AI_Robot_Raising) |
+| 굴러가유 알 (Rolling Egg) | `2025.08 ~ 2025.12` | Unity 6, C# | 2D 러닝 퍼즐 & 육성 시뮬레이션. 코어 아키텍처, 육성 시스템, 데이터 파이프라인, Unity Localization 다국어 지원 | [기술 문서](https://rladbals0129.github.io/Portfolio_RollingEgg/) · [소스](https://github.com/rladbals0129/RollingEgg_Portfolio) |
+| Diary of Lucie | `2023.09` | C++, WinAPI | 4인 팀 로그라이크 탄막 슈팅. 몬스터 AI, 보스 패턴, 이펙트 렌더링 | [PDF](https://rladbals0129.github.io/%EB%A3%A8%EC%8B%9C%EC%9D%98%EC%9D%BC%EA%B8%B0.pdf) |
+| KUNAI | `2023.07 ~ 2023.08` | C++, WinAPI | 액션 플랫포머 개인 포트폴리오 | [PDF](https://rladbals0129.github.io/KUNAI.pdf) |
+| 감염된 도시 탈출 | `2023.10` | Unreal Engine 5, Blueprint | 호러 서바이벌 FPS 개인 포트폴리오. AI Behavior Tree, Geometry Collection, Animation Blueprint, Sequencer | [PDF](https://rladbals0129.github.io/%EC%96%B8%EB%A6%AC%EC%96%BC%ED%8F%AC%ED%8F%B4_%EA%B0%9C%EB%B3%84%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C.pdf) |
 
 ## AI를 붙여서 하는 일
 
@@ -66,7 +68,7 @@
 - 반복되는 업무 문서는 Python 템플릿 스크립트로 뽑고, 현장 설치는 Batch·PowerShell 17단계 자동화로 돌립니다.
 - Google Sheets에 있는 기획 데이터를 CSV를 거쳐 ScriptableObject로 변환하는 파이프라인을 만들어 손으로 옮기던 작업을 없앴습니다.
 - RS-232 통신 누락으로 깨진 DB는 누락 패턴을 분석해 정합성 검증·복구 로직을 넣고 예외처리를 보강했습니다.
-- 도구는 Cursor, Claude, Gemini, MCP 서버, AI Agent 멀티스텝 자동화를 씁니다. 웹 포트폴리오 사이트와 프로젝트 기술 문서 페이지도 이 방식으로 만들었습니다.
+- 도구는 Cursor, Claude, Gemini, MCP 서버, AI Agent 멀티스텝 자동화를 씁니다. 위 포트폴리오 사이트와 기술 문서 페이지도 이 방식으로 만들었습니다.
 
 ## 기술
 
